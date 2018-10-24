@@ -7,6 +7,7 @@ func TestEx02(t *testing.T) {
 		in   [][]int
 		want int
 	}{
+		{in: [][]int{{}}, want: 0},
 		{in: [][]int{{1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}}, want: 30},
 		{in: [][]int{{99}}, want: 99},
 	} {
