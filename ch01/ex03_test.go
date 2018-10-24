@@ -15,7 +15,7 @@ func TestEx03(t *testing.T) {
 	} {
 		got := Largest(c.in)
 		if got != c.want {
-			t.Errorf("Average(%v) == %d, want %d", c.in, got, c.want)
+			t.Errorf("Largest(%v) == %d, want %d", c.in, got, c.want)
 		}
 	}
 }

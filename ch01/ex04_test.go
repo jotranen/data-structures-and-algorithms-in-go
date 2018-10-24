@@ -15,7 +15,7 @@ func TestEx04(t *testing.T) {
 	} {
 		got := Min(c.in)
 		if got != c.want {
-			t.Errorf("Average(%v) == %d, want %d", c.in, got, c.want)
+			t.Errorf("Min(%v) == %d, want %d", c.in, got, c.want)
 		}
 	}
 }
