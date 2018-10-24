@@ -4,7 +4,7 @@ package ch01
 func Min(in []int) int {
 
 	if len(in) == 0 {
-		return 0
+		return -1
 	}
 
 	min := in[0]
