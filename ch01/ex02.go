@@ -1,9 +1,13 @@
-// Find the sum of all the elements of a two dimensional list
-
 package ch01
 
-import "fmt"
+// Find the sum of all the elements of a two dimensional list
+func Sum(dl [][]int) int {
+	var sum int
+	for _, y := range dl {
+		for _, x := range y {
+			sum += x
+		}
+	}
 
-func main() {
-	fmt.Printf("test")
+	return sum
 }
