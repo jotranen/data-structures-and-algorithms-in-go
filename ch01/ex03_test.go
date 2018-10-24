@@ -7,7 +7,7 @@ func TestEx03(t *testing.T) {
 		in   []int
 		want int
 	}{
-		{in: []int{}, want: 0},
+		{in: []int{}, want: -1},
 		{in: []int{1, 2, 3, 4, 5}, want: 5},
 		{in: []int{99}, want: 99},
 		{in: []int{7, 2, 11, 4, 5}, want: 11},
