@@ -7,8 +7,8 @@ func TestEx11(t *testing.T) {
 		in   []int
 		want []int
 	}{
-		//{in: []int{0, 1}, want: []int{0, 1}},
-		//{in: []int{1, 0}, want: []int{0, 1}},
+		{in: []int{0, 1}, want: []int{0, 1}},
+		{in: []int{1, 0}, want: []int{0, 1}},
 		{in: []int{1, 1, 0, 1, 1, 0}, want: []int{0, 0, 1, 1, 1, 1}},
 	} {
 
