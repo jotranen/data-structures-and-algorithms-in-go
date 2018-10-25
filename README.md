@@ -1,2 +1,1 @@
-# data-structures-and-algorithms-in-go
-book exercises : data-structures-and-algorithms-in-go
+# Exercises for book: DATA STRUCTURES & ALGORITHMS IN GO
