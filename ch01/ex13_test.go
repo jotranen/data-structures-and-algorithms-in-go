@@ -33,7 +33,7 @@ func TestEx13(t *testing.T) {
 		sort.Ints(got)
 
 		if !intComparer(got, c.want) {
-			t.Errorf("Sort_0_1_2(%v) == %v, want %v", c.in, got, c.want)
+			t.Errorf("FindDuplicated(%v) == %v, want %v", c.in, got, c.want)
 		}
 	}
 }
