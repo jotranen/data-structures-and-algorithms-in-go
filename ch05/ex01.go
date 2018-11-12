@@ -2,7 +2,7 @@ package ch05
 
 import "errors"
 
-var errNotFound = errors.New("not found")
+var errFindFirstRepeated = errors.New("not found")
 
 // Given a list of n elements, find the first repeated element
 func FindFirstRepeated(in []int) (int, error) {
@@ -17,5 +17,5 @@ func FindFirstRepeated(in []int) (int, error) {
 		}
 	}
 
-	return 0, errNotFound
+	return 0, errFindFirstRepeated
 }
